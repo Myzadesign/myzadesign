@@ -1,6 +1,4 @@
-body {
-    
-}
+body {}
 
 img {
     display: block;
@@ -17,50 +15,32 @@ img {
     border-image-slice: 1;
 }
 
-.dropbtn {
-    background-color: transparent;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    display: block;
+.buttons {
+    text-align: center;
     margin: 0 auto;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #eaeaea;
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    margin: 20px 5px 0px 5px
 }
 
-.dropdown {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.button-success {
+    background: rgb(28, 184, 65);
 }
 
-.dropdown-content {
-    display: none;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    max-width: 120px;
-    z-index: 1;
+.button-error {
+    background: rgb(202, 60, 60);
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 10px 10px;
-    position: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    text-decoration: none;
-    background-color: #eaeaea;
-    display: block;
+.button-warning {
+    background: rgb(223, 117, 20);
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.show {display:block;}
