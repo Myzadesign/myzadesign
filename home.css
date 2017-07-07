@@ -22,8 +22,7 @@ img {
 
 .button-success,
 .button-error,
-.button-warning,
-.button-secondary {
+.button-warning, {
     color: white;
     border-radius: 4px;
     padding: 8px;
