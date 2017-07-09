@@ -1,0 +1,54 @@
+.center { 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+    background-image: url(home_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.button-home,
+.button-social,
+.button-about {
+    color: white;
+    width: 85px;
+    border-radius: 5px;
+    padding: 12px 18px 12px 18px;
+    border: none;
+    font-size: 16px;
+    margin: 20px 5px 0px 5px
+}
+
+.button-home {
+    background: #43BDD2;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.button-social {
+    background: #434250;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.button-about {
+    background: #FF5A60;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.button-home:hover {
+    background: #227c8c
+}
+
+.button-social:hover {
+    background: #151519
+}
+
+.button-about:hover {
+    background: #850004
+}
