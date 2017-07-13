@@ -5,10 +5,13 @@
 }
 
 body {
-    background-image: url(home_background.jpg);
-    background-size: cover;
+    background: linear-gradient(to bottom, white, lightgrey) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    background-size: 100% 100%;
 }
 
 img {
@@ -34,7 +37,7 @@ img {
 .button-social,
 .button-about {
     color: white;
-    width: 85px;
+    width: 90px;
     border-radius: 5px;
     padding: 12px 18px 12px 18px;
     border: none;
@@ -51,11 +54,13 @@ img {
 .button-social {
     background: #434250;
     transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
 }
 
 .button-about {
     background: #FF5A60;
     transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
 }
 
 .button-school:hover {
