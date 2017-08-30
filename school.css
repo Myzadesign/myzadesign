@@ -6,14 +6,14 @@
 
 body {
 	margin: 0;
-    background: linear-gradient(to bottom, white, transparent) no-repeat center center fixed;
+    background: url("southwest.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
-
+    background-position: center center;
 }
 
 .topnav {
@@ -58,17 +58,65 @@ body {
 }
 
 .button-home:hover {
-    background: #227c8c
+    background: #227c8c;
 }
 
 .button-social:hover {
-    background: #151519
+    background: #151519;
 }
 
 .button-about:hover {
-    background: #850004
+    background: #850004;
 }
 
-.main {
-	height: 2000px;
+.classes {
+	width: 40%;
+	text-align: center;
+	overflow: hidden;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 300px;
 }
+
+.button-government,
+.button-english,
+.button-physics,
+.button-mathematics {
+    width: 300px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+}
+
+.button-government {
+    background: #43BDD2;
+}
+.button-english {
+    background: #829CAC;
+}
+.button-physics {
+    background: #C07B86;
+}
+.button-mathematics {
+    background: #FF5A60;
+}
+.button-government:hover{
+    background: #2892a4;
+}
+.button-english:hover{
+    background: #5c788a;
+}
+.button-physics:hover{
+    background: #9b4b58;
+}
+.button-mathematics:hover {
+    background: #850004;
+}
+    
